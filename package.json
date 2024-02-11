@@ -1,0 +1,39 @@
+{
+  "name": "react-without-create-react-app",
+  "version": "1.0.0",
+  "description": "React create without create-react-app command",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server .",
+    "build": "Webpack .",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshkotkar5557/reactappwithbabel-webpack.git"
+  },
+  "author": "Haresh Kotkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshkotkar5557/reactappwithbabel-webpack/issues"
+  },
+  "homepage": "https://github.com/harshkotkar5557/reactappwithbabel-webpack#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.23.3",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.10.0",
+    "mini-css-extract-plugin": "^2.8.0",
+    "path": "^0.12.7",
+    "style-loader": "^3.3.4"
+  }
+}
