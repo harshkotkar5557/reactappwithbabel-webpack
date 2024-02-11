@@ -1,2 +1,2 @@
 # reactappwithbabel-webpack
-React create with out create react app command
+React create without create-react-app command
