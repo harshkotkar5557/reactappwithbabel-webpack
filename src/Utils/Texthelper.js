@@ -1,3 +1,4 @@
+import React from 'react';
 export const emphasizeSubstring = (inputText, targetSubstring) => {
     const textSegments = inputText.split(new RegExp(`(${targetSubstring})`, 'gi'));
     return (

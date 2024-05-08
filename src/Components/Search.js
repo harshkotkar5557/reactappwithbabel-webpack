@@ -36,7 +36,7 @@ const Search = () => {
       />
       <div className="search-results" tabIndex={0}>
         {isLoading && <div className="search-loading">Loading...</div>}
-        {searchResults.map((user, index) => (
+        {searchResults?.length && searchResults?.map((user, index) => (
           <SearchContainer
             className="search-item"
             key={user.id}
@@ -49,7 +49,7 @@ const Search = () => {
             onMouseMove={handleMouseMove}
           />
         ))}
-        {searchResults.length === 0 && searchInputText && (
+        {!searchResults?.length && searchInputText && (
           <NoResultsMessage searchInputText={searchInputText} />
         )}
       </div>
