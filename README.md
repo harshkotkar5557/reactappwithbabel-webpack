@@ -11,7 +11,7 @@ To get started with this template, follow these steps:
 >> npm start
 
 --------------------------------------------------------------
-- Search: Perform string-matching searches across all JSON fields.
+- *Search*: Perform string-matching searches across all JSON fields.
 - Highlighting: See search matches highlighted in blue.
 - Query Indicator: Get notified when your search term is found in items.
 - Navigation: Use keyboard or mouse to navigate through search results.
