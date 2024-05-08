@@ -1,6 +1,14 @@
-import * as React from "react"
-import "./style.css"
+import React from 'react';
+import './style.css';
 
-export default function App () {
-    return <div className="app" style={{backgroundColor: "red"}}>Hello Haresh!, React is now here</div>
-}
+import Search from './Components/Search';
+
+const App = () => {
+  return (
+    <div className='container'>
+      <Search />
+    </div>
+  );
+};
+
+export default App;
